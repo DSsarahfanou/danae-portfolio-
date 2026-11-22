@@ -172,7 +172,7 @@ export const projects: Project[] = [
     links: [
       {
         label: "Voir le code sur GitHub",
-        href: "https://github.com/DSsarahfanou/jaspeAcademy.git",
+        href: "https://github.com/DSsarahfanou/jaspeAcademy",
       },
     ],
     featured: true,
@@ -215,7 +215,7 @@ export const projects: Project[] = [
     links: [
       {
         label: "Voir le code sur GitHub",
-        href: "https://github.com/DSsarahfanou/Vital-Vegetal-EWE_MEDJI.git",
+        href: "https://github.com/DSsarahfanou/Vital-Vegetal-EWE_MEDJI",
       },
     ],
     featured: true,
@@ -258,7 +258,7 @@ export const projects: Project[] = [
     links: [
       {
         label: "Voir le code sur GitHub",
-        href: "https://github.com/obedsallai/artisan_project_stage.git",
+        href: "https://github.com/obedsallai/artisan_project_stage",
       },
     ],
     featured: false,
@@ -296,7 +296,7 @@ export const projects: Project[] = [
     links: [
       {
         label: "Voir le code sur GitHub",
-        href: "https://github.com/DSsarahfanou/DS_sarah_Benin_Food.git",
+        href: "https://github.com/DSsarahfanou/DS_sarah_Benin_Food",
       },
     ],
     featured: false,

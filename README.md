@@ -71,7 +71,9 @@ public/
 ```
 
 Le script `scripts/prepare-assets.py` documente comment les images ont été
-préparées (recadrage, redimensionnement, compression) depuis le dossier source.
+préparées (recadrage, redimensionnement, compression) depuis le dossier source,
+et `scripts/make-og.py` génère l'image de partage 1200 × 630
+(`public/images/profile/og-image.jpg`).
 
 ## Déployer sur Vercel
 
