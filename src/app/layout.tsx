@@ -15,7 +15,7 @@ import { site } from "@/lib/data";
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: "Sarah Danaé FANOU — Développeuse Web & Designer Graphique",
+    default: "Sèdjrogandé Sarah Danaé FANOU — Réseaux, Web & Design",
     template: "%s — Sarah Danaé FANOU",
   },
   description: site.description,
@@ -38,20 +38,20 @@ export const metadata: Metadata = {
     locale: "fr_BJ",
     url: site.url,
     siteName: site.name,
-    title: "Sarah Danaé FANOU — Développeuse Web & Designer Graphique",
+    title: "Sèdjrogandé Sarah Danaé FANOU — Réseaux, Web & Design",
     description: site.description,
     images: [
       {
         url: "/images/profile/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Sèdjrogandé Sarah Danaé FANOU, développeuse web et designer graphique",
+        alt: "Sèdjrogandé Sarah Danaé FANOU, administratrice réseaux, développeuse web et designer graphique",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sarah Danaé FANOU — Développeuse Web & Designer Graphique",
+    title: "Sèdjrogandé Sarah Danaé FANOU — Réseaux, Web & Design",
     description: site.description,
     images: ["/images/profile/og-image.jpg"],
   },

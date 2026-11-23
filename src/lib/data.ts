@@ -38,7 +38,7 @@ export const site = {
   url: "https://danae-portfolio.vercel.app",
   availability: "Disponible pour des missions freelance, des stages et des collaborations",
   description:
-    "Portfolio de Sarah Danaé FANOU, développeuse web et designer graphique basée à Abomey-Calavi (Bénin). Applications Laravel & Next.js, identités visuelles, réseaux informatiques et créations Danae's Creations.",
+    "Portfolio de Sèdjrogandé Sarah Danaé FANOU, administratrice réseaux, développeuse web et designer graphique basée à Abomey-Calavi (Bénin). Applications Laravel & Next.js, identités visuelles, réseaux informatiques et créations Danae's Creations.",
 };
 
 export const navigation = [
@@ -404,7 +404,7 @@ export const creations = [
     name: "Poisson fumé",
     category: "Épicerie",
     description:
-      "Un excellent amuse-guele. Du poisson séché, grillé et assaisonné de qualité, indispensable pour les sauces et les plats traditionnels.",
+      "Du poisson séché, grillé et assaisonné : un excellent amuse-gueule, indispensable pour les sauces et les plats traditionnels.",
     image: "/images/creations/poisson-sec.jpg",
     tag: "Le goût",
   },
@@ -437,7 +437,7 @@ export const creations = [
     category: "Textile",
     description:
       "Des pagnes et tissus aux motifs soignés, choisis pour habiller les grandes occasions comme le quotidien.",
-    image: "/images/creations/tissu-pagne.png",
+    image: "/images/creations/tissu-pagne.jpg",
     tag: "Le style",
   },
   {
@@ -445,7 +445,7 @@ export const creations = [
     category: "Accessoires",
     description:
       "Batteries externes, écouteurs et accessoires du quotidien : la tech utile, à prix accessible.",
-    image: "/images/creations/accessoires-tech.png",
+    image: "/images/creations/accessoires-tech.jpg",
     tag: "L'utile",
   },
 ];

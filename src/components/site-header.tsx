@@ -45,14 +45,14 @@ export function SiteHeader() {
           : "border-b border-transparent bg-transparent",
       )}
     >
-      <div className="mx-auto flex h-[72px] w-full max-w-7xl items-center justify-between px-5 sm:px-8 border-b-2 border-b-amber-50">
+      <div className="mx-auto flex h-[72px] w-full max-w-7xl items-center justify-between px-5 sm:px-8">
         <Link href="/" className="group flex items-center gap-3" aria-label="Retour à l'accueil">
           <span className="relative flex h-10 w-10 items-center justify-center rounded-xl border border-gold-400/40 bg-gold-400/10 font-serif text-lg font-semibold text-gold-300 transition-colors group-hover:bg-gold-400/20">
             SD
           </span>
           <span className="flex flex-col leading-none">
             <span className="font-display text-[15px] font-semibold tracking-tight text-white">
-              S. Sarah Danaé
+              Sarah Danaé
             </span>
             <span className="mt-1 text-[10px] font-medium uppercase tracking-[0.28em] text-mist">
               Fanou

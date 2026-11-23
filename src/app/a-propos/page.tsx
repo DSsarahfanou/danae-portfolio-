@@ -123,12 +123,12 @@ export default function AboutPage() {
                   belles.
                 </p>
                 <p>
-                  Je suis titulaire d'une Licence en informatique de gestion
-                  option administration des réseaux, avant de me spécialiser
-                  dans le développement web. Certes, je suis passionnée par le
-                  développement web et le disign graphique. Très vite, le design
-                  est devenu une évidence : un site ne se juge pas seulement à
-                  son code, mais à la façon dont il accueille la personne qui
+                  Je suis titulaire d&apos;une Licence professionnelle en
+                  informatique de gestion, option administration des réseaux, et
+                  je me suis ensuite spécialisée dans le développement web.
+                  Passionnée par le code et le design graphique, j&apos;ai vite
+                  compris qu&apos;un site ne se juge pas seulement à son code,
+                  mais à la façon dont il accueille la personne qui
                   l&apos;utilise.
                 </p>
                 <p>

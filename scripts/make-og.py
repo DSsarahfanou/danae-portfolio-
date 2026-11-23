@@ -69,7 +69,7 @@ draw.text((72, 104), "Sarah Danaé", font=segoe_bold, fill=WHITE)
 draw.text((72, 186), "FANOU", font=segoe_bold, fill=GOLD)
 
 # Role.
-draw.text((74, 296), "Développeuse Web & Designer Graphique", font=segoe_semibold, fill=(226, 231, 240))
+draw.text((74, 296), "Administratrice Réseaux & Développeuse Web", font=segoe_semibold, fill=(226, 231, 240))
 draw.text((74, 350), "Créer · Développer · Inspirer", font=georgia_italic, fill=CREAM)
 
 # Divider.

@@ -9,7 +9,6 @@ import {
   ArrowUpRight,
   CheckIcon,
   MapPinIcon,
-  SparkIcon,
   iconMap,
 } from "@/components/icons";
 import { projects, services, site, stats, values } from "@/lib/data";
@@ -31,8 +30,8 @@ const marqueeItems = [
 const creationPreviews = [
   { src: "/images/creations/beignets-chocolat.jpg", alt: "Beignets fourrés au chocolat" },
   { src: "/images/creations/poisson-sec.jpg", alt: "Poisson fumé et séché" },
-  { src: "/images/creations/tissu-pagne.png", alt: "Pagne et tissu aux motifs soignés" },
-  { src: "/images/creations/accessoires-tech.png", alt: "Accessoires tech et batteries externes" },
+  { src: "/images/creations/tissu-pagne.jpg", alt: "Pagne et tissu aux motifs soignés" },
+  { src: "/images/creations/accessoires-tech.jpg", alt: "Accessoires tech et batteries externes" },
 ];
 
 export default function HomePage() {
@@ -48,22 +47,22 @@ export default function HomePage() {
 
         <div className="relative mx-auto grid w-full max-w-7xl gap-16 px-5 sm:px-8 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
           <div>
-    
-
-            <h1 className="mt-7 font-display text-[2.7rem] font-semibold leading-[1.02] tracking-tight text-white sm:text-6xl lg:text-[4.35rem]">
+            <h1 className="font-display text-[2.7rem] font-semibold leading-[1.02] tracking-tight text-white sm:text-6xl lg:text-[4.35rem]">
               Sèdjrogandé Sarah Danaé
               <span className="mt-1 block text-gradient-gold">FANOU</span>
             </h1>
 
             <p className="mt-6 font-serif text-xl italic text-cream/90 sm:text-2xl">
-              Administratrice Réseaux Informatique <span className="text-gold-400">&</span> Developpeuse Web
+              Administratrice Réseaux Informatique <span className="text-gold-400">&</span> Développeuse Web
             </p>
 
             <p className="mt-5 max-w-xl text-[15px] leading-relaxed text-mist sm:text-base">
-              Je suis titulaire d`&apos`; une Licence professionnelle en Administration Réseaux Informatique obtenue à l'Ecole Nationele d'Economie Appliquée et de Management (ENEAM).
-              Je suis particulière passionnée par le developpement web et design graphique.
-              Je conçois des applications web et des identités visuelles qui
-              allient <span className="text-white">technique solide</span>,{" "}
+              Je suis titulaire d&apos;une Licence professionnelle en informatique
+              de gestion, option administration des réseaux, obtenue à l&apos;École
+              Nationale d&apos;Économie Appliquée et de Management (ENEAM).
+              Passionnée par le développement web et le design graphique, je conçois
+              des applications et des identités visuelles qui allient{" "}
+              <span className="text-white">technique solide</span>,{" "}
               <span className="text-white">design soigné</span> et{" "}
               <span className="text-white">vraie compréhension du terrain</span>.
               Basée à Abomey-Calavi, je travaille avec des entreprises, des
@@ -102,7 +101,7 @@ export default function HomePage() {
               </a>
             </div>
 
-            <dl className="mt-10 grid grid-cols-2 gap-y-6 border-t border-white/[0.08] pt-8 sm:grid-cols-4 text-center">
+            <dl className="mt-10 grid grid-cols-2 gap-y-6 border-t border-white/[0.08] pt-8 sm:grid-cols-4">
               {stats.map((stat) => (
                 <div key={stat.label} className="sm:border-l sm:border-white/[0.08] sm:pl-5 sm:first:border-0 sm:first:pl-0">
                   <dt className="font-display text-2xl font-semibold text-white">
