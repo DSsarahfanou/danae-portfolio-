@@ -39,8 +39,7 @@ export default function AboutPage() {
         <div className="relative mx-auto w-full max-w-7xl px-5 sm:px-8">
           <Reveal>
             <p className="flex items-center gap-3 text-[11px] font-semibold uppercase tracking-[0.3em] text-gold-300">
-              <span className="h-px w-8 bg-gold-400/60" />
-              À propos
+              <span className="h-px w-8 bg-gold-400/60" />À propos
             </p>
             <h1 className="mt-5 max-w-4xl font-display text-4xl font-semibold leading-[1.08] text-white sm:text-5xl lg:text-6xl">
               Derrière le code,
@@ -117,17 +116,20 @@ export default function AboutPage() {
             <Reveal delay={100}>
               <div className="space-y-5 text-[15px] leading-relaxed text-mist-light">
                 <p>
-                  Je m&apos;appelle <span className="text-white">Sarah Danaé FANOU</span>.
-                  Je suis née à Abomey-Calavi, au Bénin, et j&apos;ai grandi avec
-                  une conviction simple : les choses utiles peuvent aussi être
+                  Je m&apos;appelle{" "}
+                  <span className="text-white">Sarah Danaé FANOU</span>. Je suis
+                  née à Abomey-Calavi, au Bénin, et j&apos;ai grandi avec une
+                  conviction simple : les choses utiles peuvent aussi être
                   belles.
                 </p>
                 <p>
-                  J&apos;ai commencé par l&apos;informatique de gestion et
-                  l&apos;administration des réseaux, avant de me spécialiser dans
-                  le développement web. Très vite, le design est devenu une
-                  évidence : un site ne se juge pas seulement à son code, mais à
-                  la façon dont il accueille la personne qui l&apos;utilise.
+                  Je suis titulaire d'une Licence en informatique de gestion
+                  option administration des réseaux, avant de me spécialiser
+                  dans le développement web. Certes, je suis passionnée par le
+                  développement web et le disign graphique. Très vite, le design
+                  est devenu une évidence : un site ne se juge pas seulement à
+                  son code, mais à la façon dont il accueille la personne qui
+                  l&apos;utilise.
                 </p>
                 <p>
                   Aujourd&apos;hui, je développe des applications avec{" "}
@@ -135,14 +137,14 @@ export default function AboutPage() {
                   <span className="text-white">Next.js</span>, je conçois des
                   identités visuelles avec Figma et Canva, et je gère des
                   infrastructures réseau. En parallèle, je fais vivre{" "}
-                  <span className="text-white">Danae&apos;s Creations</span> : une
-                  activité de vente d&apos;épices, de tissus et de douceurs.
+                  <span className="text-white">Danae&apos;s Creations</span> :
+                  une activité de vente d&apos;épices, de tissus et de douceurs.
                 </p>
                 <p>
                   Ce mélange n&apos;est pas un hasard. Vendre m&apos;a appris à
-                  écouter ; le design, à clarifier ; le réseau, à être rigoureuse.
-                  Le développement, lui, me permet de relier tout cela dans un
-                  même produit.
+                  écouter ; le design, à clarifier ; le réseau, à être
+                  rigoureuse. Le développement, lui, me permet de relier tout
+                  cela dans un même produit.
                 </p>
 
                 <div className="grid gap-3 pt-4 sm:grid-cols-2">
@@ -221,7 +223,9 @@ export default function AboutPage() {
                     <h3 className="mt-2 font-display text-lg font-semibold text-white">
                       {item.title}
                     </h3>
-                    <p className="mt-1 text-sm text-mist-light">{item.company}</p>
+                    <p className="mt-1 text-sm text-mist-light">
+                      {item.company}
+                    </p>
                     <p className="mt-2 text-sm leading-relaxed text-mist">
                       {item.description}
                     </p>
@@ -254,7 +258,9 @@ export default function AboutPage() {
                       <h4 className="mt-2 font-display text-base font-semibold text-white">
                         {item.title}
                       </h4>
-                      <p className="mt-1 text-sm text-mist-light">{item.subtitle}</p>
+                      <p className="mt-1 text-sm text-mist-light">
+                        {item.subtitle}
+                      </p>
                       <p className="mt-1 text-xs text-mist">{item.school}</p>
                     </li>
                   ))}
@@ -269,7 +275,9 @@ export default function AboutPage() {
                       <li key={language.name}>
                         <div className="flex items-center justify-between text-sm">
                           <span className="text-white">{language.name}</span>
-                          <span className="text-xs text-mist">{language.level}</span>
+                          <span className="text-xs text-mist">
+                            {language.level}
+                          </span>
                         </div>
                         <div className="mt-2 h-1.5 overflow-hidden rounded-full bg-white/[0.07]">
                           <div
