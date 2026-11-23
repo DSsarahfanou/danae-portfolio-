@@ -43,37 +43,31 @@ export default function HomePage() {
       {/* HERO */}
       <section className="relative overflow-hidden pb-16 pt-28 sm:pb-24 sm:pt-36">
         <div className="pointer-events-none absolute inset-0 bg-grid opacity-50" />
-        <div className="pointer-events-none absolute -left-40 top-0 h-[32rem] w-[32rem] rounded-full bg-gold-400/[0.07] blur-[130px]" />
+        <div className="pointer-events-none absolute -left-40 top-0 h-[32rem] w-[32rem] rounded-full bg-white/[0.07] blur-[130px]" />
         <div className="pointer-events-none absolute -right-32 bottom-0 h-[26rem] w-[26rem] rounded-full bg-[#2c4a8a]/20 blur-[120px]" />
 
         <div className="relative mx-auto grid w-full max-w-7xl gap-16 px-5 sm:px-8 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
           <div>
-            <div className="inline-flex items-center gap-2.5 rounded-full border border-emerald-400/25 bg-emerald-400/[0.07] px-4 py-1.5">
-              <span className="relative flex h-2 w-2">
-                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-70" />
-                <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-400" />
-              </span>
-              <span className="text-[11px] font-semibold uppercase tracking-[0.2em] text-emerald-300">
-                Disponible pour missions
-              </span>
-            </div>
+    
 
             <h1 className="mt-7 font-display text-[2.7rem] font-semibold leading-[1.02] tracking-tight text-white sm:text-6xl lg:text-[4.35rem]">
-              Sarah Danaé
+              Sèdjrogandé Sarah Danaé
               <span className="mt-1 block text-gradient-gold">FANOU</span>
             </h1>
 
             <p className="mt-6 font-serif text-xl italic text-cream/90 sm:text-2xl">
-              Développeuse Web <span className="text-gold-400">&</span> Designer Graphique
+              Administratrice Réseaux Informatique <span className="text-gold-400">&</span> Developpeuse Web
             </p>
 
             <p className="mt-5 max-w-xl text-[15px] leading-relaxed text-mist sm:text-base">
+              Je suis titulaire d`&apos`; une Licence professionnelle en Administration Réseaux Informatique obtenue à l'Ecole Nationele d'Economie Appliquée et de Management (ENEAM).
+              Je suis particulière passionnée par le developpement web et design graphique.
               Je conçois des applications web et des identités visuelles qui
               allient <span className="text-white">technique solide</span>,{" "}
               <span className="text-white">design soigné</span> et{" "}
               <span className="text-white">vraie compréhension du terrain</span>.
               Basée à Abomey-Calavi, je travaille avec des entreprises, des
-              cabinets et des créateurs qui veulent exister en ligne — pour de bon.
+              cabinets et des créateurs.
             </p>
 
             <div className="mt-9 flex flex-wrap items-center gap-3">
@@ -108,7 +102,7 @@ export default function HomePage() {
               </a>
             </div>
 
-            <dl className="mt-10 grid grid-cols-2 gap-y-6 border-t border-white/[0.08] pt-8 sm:grid-cols-4">
+            <dl className="mt-10 grid grid-cols-2 gap-y-6 border-t border-white/[0.08] pt-8 sm:grid-cols-4 text-center">
               {stats.map((stat) => (
                 <div key={stat.label} className="sm:border-l sm:border-white/[0.08] sm:pl-5 sm:first:border-0 sm:first:pl-0">
                   <dt className="font-display text-2xl font-semibold text-white">
@@ -138,11 +132,8 @@ export default function HomePage() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-ink-950 via-ink-950/20 to-transparent" />
               <div className="absolute inset-x-0 bottom-0 p-6 sm:p-7">
-                <p className="font-serif text-lg italic text-gold-200 sm:text-xl">
-                  « Créer · Développer · Inspirer »
-                </p>
-                <p className="mt-2 text-[10px] font-semibold uppercase tracking-[0.26em] text-mist">
-                  Portfolio 2026 — Bénin
+                <p className="font-serif text-lg italic text-gold-200 sm:text-xl text-center">
+                  Créer · Développer · Inspirer
                 </p>
               </div>
             </div>
@@ -158,7 +149,6 @@ export default function HomePage() {
 
             <div className="absolute -right-3 bottom-24 hidden animate-float-slow rounded-2xl glass px-4 py-3 sm:block lg:-right-7">
               <div className="flex items-center gap-2.5">
-                <SparkIcon className="h-4 w-4 text-gold-300" />
                 <div>
                   <p className="text-[9px] font-semibold uppercase tracking-[0.22em] text-mist">
                     Design
@@ -180,6 +170,7 @@ export default function HomePage() {
         <div className="mx-auto w-full max-w-7xl px-5 sm:px-8">
           <Reveal>
             <SectionHeading
+              
               eyebrow="Ce que je fais"
               title={
                 <>
