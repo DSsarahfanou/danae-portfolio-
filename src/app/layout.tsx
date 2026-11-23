@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   },
   description: site.description,
   keywords: [
-    "Sarah Danaé Fanou",
+    "Sèdjrogandé Sarah Danaé Fanou",
     "développeuse web Bénin",
     "designer graphique Bénin",
     "Laravel",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
         url: "/images/profile/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Sarah Danaé FANOU, développeuse web et designer graphique",
+        alt: "Sèdjrogandé Sarah Danaé FANOU, développeuse web et designer graphique",
       },
     ],
   },

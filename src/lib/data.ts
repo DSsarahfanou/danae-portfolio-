@@ -404,7 +404,7 @@ export const creations = [
     name: "Poisson fumé",
     category: "Épicerie",
     description:
-      "Du poisson séché et fumé de qualité, indispensable pour les sauces et les plats traditionnels.",
+      "Un excellent amuse-guele. Du poisson séché, grillé et assaisonné de qualité, indispensable pour les sauces et les plats traditionnels.",
     image: "/images/creations/poisson-sec.jpg",
     tag: "Le goût",
   },
@@ -437,7 +437,7 @@ export const creations = [
     category: "Textile",
     description:
       "Des pagnes et tissus aux motifs soignés, choisis pour habiller les grandes occasions comme le quotidien.",
-    image: "/images/creations/tissu-pagne.jpg",
+    image: "/images/creations/tissu-pagne.png",
     tag: "Le style",
   },
   {
@@ -445,7 +445,7 @@ export const creations = [
     category: "Accessoires",
     description:
       "Batteries externes, écouteurs et accessoires du quotidien : la tech utile, à prix accessible.",
-    image: "/images/creations/accessoires-tech.jpg",
+    image: "/images/creations/accessoires-tech.png",
     tag: "L'utile",
   },
 ];

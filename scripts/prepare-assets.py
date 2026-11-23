@@ -76,8 +76,8 @@ creations = {
     "piment épicé.jpg": "piment.jpg",
     "poison sec.jpg": "poisson-sec.jpg",
     "africa tennis oeuf.jpg": "oeufs-panes.jpg",
-    "170221.jpg": "tissu-pagne.jpg",
-    "IMG_20250119_132938.jpg": "accessoires-tech.jpg",
+    "170221.jpg": "tissu-pagne.png",
+    "IMG_20250119_132938.jpg": "accessoires-tech.png",
 }
 for src, dest in creations.items():
     copy_img(SRC / src, DIRS["creations"] / dest, max_w=1400)

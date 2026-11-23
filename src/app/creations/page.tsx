@@ -53,7 +53,7 @@ export default function CreationsPage() {
                 <span className="text-gradient-gold">Creations</span>
               </h1>
               <p className="mt-6 max-w-xl font-serif text-xl italic text-cream/90">
-                Le goût, le style et le service — à la béninoise.
+                Le goût, le style et le service à la béninoise.
               </p>
               <p className="mt-5 max-w-xl text-[15px] leading-relaxed text-mist">
                 Épices parfumées, pagnes soignés, beignets généreux, œufs panés

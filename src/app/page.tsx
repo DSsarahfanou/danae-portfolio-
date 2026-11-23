@@ -31,8 +31,8 @@ const marqueeItems = [
 const creationPreviews = [
   { src: "/images/creations/beignets-chocolat.jpg", alt: "Beignets fourrés au chocolat" },
   { src: "/images/creations/poisson-sec.jpg", alt: "Poisson fumé et séché" },
-  { src: "/images/creations/tissu-pagne.jpg", alt: "Pagne et tissu aux motifs soignés" },
-  { src: "/images/creations/accessoires-tech.jpg", alt: "Accessoires tech et batteries externes" },
+  { src: "/images/creations/tissu-pagne.png", alt: "Pagne et tissu aux motifs soignés" },
+  { src: "/images/creations/accessoires-tech.png", alt: "Accessoires tech et batteries externes" },
 ];
 
 export default function HomePage() {
